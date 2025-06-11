@@ -7,7 +7,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Project/PHP/PHPProject.php to edi
 
 <head>
     <meta charset="UTF-8">
-    <title></title>
+    <title>Meu Portfólio</title>
     <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -37,8 +37,8 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Project/PHP/PHPProject.php to edi
         </nav>
         <nav class="bloco2">
             <nav class="description">
-                <h3>Sobre mim</h3>
-                <p>Olá, me chamo Lucas sou desenvolvedor e estudante em Bacharelado em Ciências da Computação no IFCE(Instituto
+                <h3 class="description-title">Sobre mim</h3>
+                <p class="description-text">Olá, me chamo Lucas sou desenvolvedor e estudante em Bacharelado em Ciências da Computação no IFCE(Instituto
                     Federal de Educação, Ciência e Tecnologia do Ceará), comecei a programar em 2016 em projetos
                     pessoais e por passatempo, sou uma pessoa curiosa e entusiasta pela área e bastante exploradora,
                     sempre buscando
@@ -51,7 +51,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Project/PHP/PHPProject.php to edi
         </nav>
 </div>
         <div class="conhecimentos">
-            <h1>Conhecimentos</h1>
+            <h1 class="conhecimentos-title">Conhecimentos</h1>
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg" />
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg" />
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
@@ -62,13 +62,16 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Project/PHP/PHPProject.php to edi
             <img
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/blender/blender-original-wordmark.svg" />
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/godot/godot-original-wordmark.svg" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original-wordmark.svg" />
         </div>
     
     <footer>
         <hr>
-        <p>&copy; 2025 Lucas Silva </p>
+        <p>&copy; <span id="ano-atual-footer">2025</span> Lucas Silva </p>
         <p>Todos os direitos reservados.</p>
     </footer>
+
+    <script src="js/main.js"></script>
 </body>
 
 </html>
