@@ -18,7 +18,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Project/PHP/PHPProject.php to edi
 </head>
 
 <body>
-    <form id="menu" action="" method="POST" class="form">
+    <form id="menu" action="index.php" method="POST" class="form">
         <input type="submit" name="submit" value="Sobre mim">
         <input type="submit" name="submit" value="Fale comigo">
         <input type="submit" name="submit" value="Projetos">
