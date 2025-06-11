@@ -153,7 +153,7 @@ footer p {
 }
 
 footer hr {
-    border: solid 1px #b8b8ef;
+    border: solid 1px var(--background-color-2);
 }
 
 .conhecimentos {
