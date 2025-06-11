@@ -7,6 +7,12 @@ paleta de cores hex
 b8b8ef
 ffffff
 */
+:root{
+    --background-color-0: #101010;
+    --background-color-1: rgb(45, 45, 45);
+    --background-color-2: rgb(107, 107, 107); /*from border solid radius img*/
+    
+}
 
 * {
     margin: 0px;
@@ -15,18 +21,18 @@ ffffff
 }
 
 body {
-    background-color: #4646cc;
+    background-color: var(--background-color-0);
 }
 
 #menu {
-    background-color: #4646cc;
+    background-color: var(--background-color-0);
     padding: 5px;
     position: fixed;
     width: 100%;
 }
 
 #menu input {
-    background-color: #4646cc;
+    background-color: var(--background-color-0);
     color: white;
     padding: 15px;
     font-size: 20px;
@@ -53,7 +59,7 @@ body {
 }
 
 .main-conteudo {
-    background-color: #8484ec;
+    background-color: var(--background-color-1);
     text-align: center;
     display: flex;
 }
@@ -61,7 +67,7 @@ body {
 .bloco1,
 .bloco2 {
     color: #fff;
-    background-color: #8484ec;
+    background-color: var(--background-color-1);
 
 }
 
@@ -75,7 +81,7 @@ body {
 
 .bio {
     padding: 20px;
-    background-color: #4646cc;
+    background-color: var(--background-color-0);
     text-align: center;
 }
 
@@ -86,7 +92,7 @@ body {
     width: 150px;
     height: 150px;
     border-radius: 100%;
-    border: solid 5px #7474e8;
+    border: solid 5px var(--background-color-2);
     margin: 100px auto;
 }
 
@@ -135,7 +141,7 @@ body {
 }
 
 footer {
-    background-color: #4646cc;
+    background-color: var(--background-color-0);
     padding: 50px;
     text-align: center;
     color: white;
@@ -151,7 +157,7 @@ footer hr {
 }
 
 .conhecimentos {
-    background-color: #8484ec;
+    background-color: var(--background-color-1);
     margin: 0px 0px;
     color: #fff;
     text-align: center;
